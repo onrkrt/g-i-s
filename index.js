@@ -46,6 +46,8 @@ function gis(opts, done) {
         if (metadata.ou) {
           var result = {
             url: metadata.ou,
+            pageUrl: metadata.ru,
+            description: metadata.pt,
             width: metadata.ow,
             height: metadata.oh
           };
